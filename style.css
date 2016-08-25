@@ -93,7 +93,7 @@
 		width:100%;
 		max-width:1170px;
 		margin:0 auto;
-		padding:40px 0;
+		padding:40px 40px;
 		position:relative;
 		z-index:2;
 	}
@@ -1343,14 +1343,15 @@
 	.accordion{
 		float:right;
 		text-align:left;
-		width:49%;
+		/*width:49%;*/
 		font-weight:300;
 		font-size:15px;
 		color:#2a2a2a;
 	}
 
 	.accordion .accordion-head{
-		font-size:40px;
+		text-align: center;
+		font-size:28px;
 		color:#565656;
 		text-transform:uppercase;
 	}
