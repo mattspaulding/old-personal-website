@@ -36,8 +36,8 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                sectionsColor: [ '#B1740F','#1789FC', '#FFFFFF', '#1bbc9b', '#4BBFC3', '#fff', '#fff', '#fff', '#B1740F', '#FDB833', '#FFA987','#fff', '#000'],
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage', '9thPage', '10thPage', '11thPage', '12thPage'],
+                sectionsColor: ['#5BC0EB', '#FDE74C', '#FA7921', '#E55934', '#9BC53D', '#FDE74C', '#5BC0EB', '#FF943A', '#FFFFF5', '#fff', '#fff', '#fff', '#fff', '#fff', '#E55934', '#FDE74C', '#FA7921', '#9BC53D', '#000'],
+                anchors: ['hi', 'family', 'what-i-do', 'professional', 'claires', 'office-depot', 'fun', 'ananamoose', 'squat-nagger', 'blrbr', 'id-cap-that', 'cuddle-bear', 'experience', 'education', 'angular-material', 'masters-thesis', 'tutorial', 'github', 'fin'],
                 menu: '#menu',
                 loopTop: true,
                 loopBottom: true,
@@ -67,24 +67,29 @@
                     <h1>Hi. I'm <strong itemprop="name"><span itemprop="givenName">Matt</span> <span
                             itemprop="familyName">Spaulding</span></strong>.</h1>
                 </header>
-                <p>
-                    <span><strong itemprop="jobTitle">Web Developer</strong> by day.</span>
-                    <br/>
-                    <span><strong>Game Developer</strong> by night.</span>
-                    <br/>
-                    Straight out of <span id="address" itemprop="address" itemscope
-                                          itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">Tampa Bay</span>,<span
-                        itemprop="region">FL</span></span>
-                </p>
+                <!--<p>-->
+                <!--<span><strong itemprop="jobTitle">Web Developer</strong> by day.</span>-->
+                <!--<br/>-->
+                <!--<span><strong>Game Developer</strong> by night.</span>-->
+                <!--<br/>-->
+                <!--Straight out of <span id="address" itemprop="address" itemscope-->
+                <!--itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">Tampa Bay</span>,<span-->
+                <!--itemprop="region">FL</span></span>-->
+                <!--</p>-->
             </div>
         </div>
-        <a class="btn btn-info" href="files/MattSpauldingResume.docx" target="_blank">Download Resume (.docx)</a>
-        <!-- End Home Button -->
+        <br>
+        <br>
+        <br>
+        <div>
+            <a class="btn btn-warning" href="files/MattSpauldingResume.docx" target="_blank">Download Resume
+                (.docx)</a>
+        </div>
 
     </div>
     <div class="section" id="section1">
         <div class="header">
-            My Family
+            and this is my family
         </div>
         <br><br>
         <div class="row">
@@ -123,10 +128,16 @@
     </div>
     <div class="section" id="section2">
         <div class="header ">
-            This is what I do
+            and this is my current favorite tech
         </div>
         <div class="inner">
             <div class="row">
+                <div class="col-xs-4 col-md-2">
+                    <img src="images/skills/angular2.png" alt="Angular2">
+                    <div>
+                        <h5>Angular2</h5>
+                    </div>
+                </div>
                 <div class="col-xs-4 col-md-2">
                     <img src="images/skills/angular.png" alt="AngularJS">
                     <div>
@@ -140,51 +151,64 @@
                     </div>
                 </div>
                 <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/gulp.png" alt="GulpJS">
+                    <img src="images/skills/typescript.png" alt="Typescript">
                     <div>
-                        <h5>GulpJS</h5>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/jasmine.png" alt="Jasmine">
-                    <div>
-                        <h5>Jasmine</h5>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/karma.png" alt="Karma">
-                    <div>
-                        <h5>Karma</h5>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/protractor.png" alt="Protractor">
-                    <div>
-                        <h5>Protractor</h5>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/bootstrap.png" alt="Bootstrap">
-                    <div>
-                        <h5>Bootstrap</h5>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/browsersync.png" alt="BrowserSync">
-                    <div>
-                        <h5>BrowserSync</h5>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/node-sass.png" alt="Sass">
-                    <div>
-                        <h5>Sass</h5>
+                        <h5>Typescript</h5>
                     </div>
                 </div>
                 <div class="col-xs-4 col-md-2">
                     <img src="images/skills/javascript.png" alt="Javascript">
                     <div>
                         <h5>Javascript</h5>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-2">
+                    <img src="images/skills/materialdesign.png" alt="Material Design">
+                    <div>
+                        <h5>Material Design</h5>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-2">
+                    <img src="images/skills/ionic2.png" alt="Ionic2">
+                    <div>
+                        <h5>Ionic2</h5>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-2">
+                    <img src="images/skills/ionic.png" alt="Ionic">
+                    <div>
+                        <h5>Ionic</h5>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-2">
+                    <img src="images/skills/cordova.jpg" alt="Cordova">
+                    <div>
+                        <h5>Cordova</h5>
+                    </div>
+                </div>
+
+                <!--<div class="col-xs-4 col-md-2">-->
+                <!--<img src="images/skills/protractor.png" alt="Protractor">-->
+                <!--<div>-->
+                <!--<h5>Protractor</h5>-->
+                <!--</div>-->
+                <!--</div>-->
+                <div class="col-xs-4 col-md-2">
+                    <img src="images/skills/bootstrap.png" alt="Bootstrap">
+                    <div>
+                        <h5>Bootstrap</h5>
+                    </div>
+                </div>
+                <!--<div class="col-xs-4 col-md-2">-->
+                <!--<img src="images/skills/browsersync.png" alt="BrowserSync">-->
+                <!--<div>-->
+                <!--<h5>BrowserSync</h5>-->
+                <!--</div>-->
+                <!--</div>-->
+                <div class="col-xs-4 col-md-2">
+                    <img src="images/skills/node-sass.png" alt="Sass">
+                    <div>
+                        <h5>Sass</h5>
                     </div>
                 </div>
                 <div class="col-xs-4 col-md-2">
@@ -200,39 +224,45 @@
                     </div>
                 </div>
                 <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/jquery.png" alt="jQuery">
-                    <div>
-                        <h5>jQuery</h5>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-md-2">
                     <img src="images/skills/csharp.jpg" alt="C#">
                     <div>
                         <h5>C#</h5>
                     </div>
                 </div>
                 <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/unity.png" alt="Unity">
+                    <img src="images/skills/jquery.png" alt="jQuery">
                     <div>
-                        <h5>Unity</h5>
+                        <h5>jQuery</h5>
                     </div>
                 </div>
-                <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/materialdesign.png" alt="Material Design">
-                    <div>
-                        <h5>Material Design</h5>
-                    </div>
-                </div>
+                <!--<div class="col-xs-4 col-md-2">-->
+                <!--<img src="images/skills/unity.png" alt="Unity">-->
+                <!--<div>-->
+                <!--<h5>Unity</h5>-->
+                <!--</div>-->
+                <!--</div>-->
                 <div class="col-xs-4 col-md-2">
                     <img src="images/skills/yeoman.png" alt="Yeoman">
                     <div>
                         <h5>Yeoman</h5>
                     </div>
                 </div>
+                <!--<div class="col-xs-4 col-md-2">-->
+                <!--<img src="images/skills/gulp.png" alt="GulpJS">-->
+                <!--<div>-->
+                <!--<h5>GulpJS</h5>-->
+                <!--</div>-->
+                <!--</div>-->
                 <div class="col-xs-4 col-md-2">
-                    <img src="images/skills/cordova.jpg" alt="Cordova">
+                    <img src="images/skills/jasmine.png" alt="Jasmine">
                     <div>
-                        <h5>Cordova</h5>
+                        <h5>Jasmine</h5>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-2">
+                    <img src="images/skills/karma.png" alt="Karma">
+                    <div>
+                        <h5>Karma</h5>
                     </div>
                 </div>
             </div>
@@ -265,6 +295,11 @@
         </div>
     </div>
 
+    <div class="section">
+        <p>
+            <span>I professionally develop software for the <strong>web</strong> and <strong>mobile</strong> devices.</span>
+        </p>
+    </div>
     <div class="section" id="section3">
         <div class="header">
             I made <span style="color:blue;font-weight:800">Claire's</span> mobile site
@@ -431,77 +466,82 @@
         </div>
 
     </div>
-    <div class="section" id="section5">
-        <div class="header">
-            Personal projects
-        </div>
-        <div class="slide">
+    <div class="section">
+        <p>
+            <span>I also make apps and whatnot for fun.</span>
+        </p>
+    </div>
 
-            <!-- Second Header -->
-            <div class="page-desc">
-                These are a few things that I've been working on.
+    <div class="section">
+        <div>
+            <img src="images/personal/ananamoose.png" alt="ananamoose">
+            <h3>ananamoose</h3>
+            <h4>local anonymous chat</h4>
+        </div>
+        <div>
+            <a target="_blank" href="https://itunes.apple.com/us/app/squat-nagger/id1091530972?mt=8">
+                <img src="images/personal/app_store.png" width="150px;">
+            </a>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mspaulding.ananamoose&hl=en">
+                <img src="images/personal/google_play.png" width="150px;">
+            </a>
+        </div>
+    </div>
+    <div class="section">
+        <div>
+            <img src="images/personal/SquatNagger.jpg" alt="squat-nagger">
+            <h3>Squat Nagger</h3>
+            <h4>Get your butt in shape</h4>
+        </div>
+        <div>
+            <a target="_blank" href="https://itunes.apple.com/us/app/squat-nagger/id1091530972?mt=8">
+            <img src="images/personal/app_store.png" width="150px;">
+            </a>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mspaulding.squatnagger&hl=en">
+            <img src="images/personal/google_play.png" width="150px;">
+            </a>
+        </div>
+    </div>
+    <div class="section">
+        <a href="http://blrbr.co">
+            <div>
+                <img src="images/personal/Blrbr.png" alt="blrbr" >
+                <h3>blrbr</h3>
+                <h4>social audio</h4>
             </div>
             <div>
-                (click the arrows)
+                <a target="_blank" href="https://itunes.apple.com/us/app/blrbr-push-to-talk-for-twitter/id995294348?mt=8">
+                    <img src="images/personal/app_store.png" width="150px;">
+                </a>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mspaulding.blrbr&hl=en">
+                    <img src="images/personal/google_play.png" width="150px;">
+                </a>
             </div>
-        </div>
-        <div class="slide">
-            <a href="http://blrbr.co">
-                <div class="animated col-sm-6 col-sm-offset-3" data-animation="fadeInLeft" data-animation-delay="0"
-                     style="padding:50px 0">
-                    <img src="images/personal/Blrbr.png" alt="blrbr" width="100%">
-                    <h3>blrbr</h3>
-                    <h4>social audio</h4>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <a href="http://idcapthat.com">
-                <div class="animated col-sm-6 col-sm-offset-3" data-animation="fadeInLeft" data-animation-delay="0"
-                     style="padding:50px 0">
-                    <img src="images/personal/IdCapThat.jpg" alt="Id Cap That" width="100%">
-                    <h3>IdCapThat.com</h3>
-                    <h4>picture. captioning. mayhem.</h4>
-                    <h5>(Warning: user generated content. NSFW!!)</h5>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <a href="https://www.youtube.com/watch?v=OapMacfNM5A">
-                <div class="animated col-sm-6 col-sm-offset-3" data-animation="fadeInLeft" data-animation-delay="0"
-                     style="padding:50px 0">
-                    <img src="images/personal/CuddleBear.jpg" alt="Cuddle Bear" width="100%">
-                    <h3>Cuddle Bear</h3>
-                    <h4>A troubled teddy bear wreaks havoc on the town when he is taken away from Johnny. Blast your way
-                        through every bunny and squirrel in your path to reunite with your lost friend. Only on Xbox
-                        LIVE. </h4>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
+
+        </a>
+    </div>
+    <div class="section">
+        <a href="http://idcapthat.com">
             <div class="animated col-sm-6 col-sm-offset-3" data-animation="fadeInLeft" data-animation-delay="0"
                  style="padding:50px 0">
-                <img src="images/personal/FSMS.jpg" alt="Free Stock Market Simulator" width="100%">
-                <h3>Free Stock Market Simulator</h3>
-                <h4>A free to play virtual stock trading game</h4>
+                <img src="images/personal/IdCapThat.jpg" alt="Id Cap That" width="100%">
+                <h3>IdCapThat.com</h3>
+                <h4>picture. captioning. mayhem.</h4>
+                <h5>(Warning: user generated content. NSFW!!)</h5>
             </div>
-        </div>
-        <div class="slide">
+        </a>
+    </div>
+    <div class="section">
+        <a href="https://www.youtube.com/watch?v=OapMacfNM5A">
             <div class="animated col-sm-6 col-sm-offset-3" data-animation="fadeInLeft" data-animation-delay="0"
                  style="padding:50px 0">
-                <img src="images/personal/BehaviorDriven.jpg" alt="BehaviorDriven" width="100%">
-                <h3>BehaviorDriven.net</h3>
-                <h4>A tool for agile software development. </h4>
+                <img src="images/personal/CuddleBear.jpg" alt="Cuddle Bear" width="100%">
+                <h3>Cuddle Bear</h3>
+                <h4>A troubled teddy bear wreaks havoc on the town when he is taken away from Johnny. Blast your way
+                    through every bunny and squirrel in your path to reunite with your lost friend. Only on Xbox
+                    LIVE. </h4>
             </div>
-        </div>
-        <div class="slide">
-            <div class="animated col-sm-6 col-sm-offset-3" data-animation="fadeInLeft" data-animation-delay="0"
-                 style="padding:50px 0">
-                <img src="images/personal/AgileDoc.jpg" alt="AgileDoc" width="100%">
-                <h3>AgileDoc.net</h3>
-                <h4>Documentation for those who despise documentation.</h4>
-            </div>
-        </div>
+        </a>
     </div>
     <div class="section" id="section6">
 
@@ -537,7 +577,7 @@
                             <h4>Toptal</h4>
                         </div>
                         <div class="col-xs-4">
-                            <h5>Sept 2015 - Present</h5>
+                            <h5>Sept 2015 - Mar 2016</h5>
                         </div>
                     </div>
                     <div class="row">
@@ -831,9 +871,11 @@
                 <div class="col-xs-12 col-md-6">
                     <div>
                         <div class="videoWrapper">
-                            <iframe width="420" height="315"
-                                    src="https://www.youtube.com/embed/K7zBDHYmBA4">
-                            </iframe>
+                            <object width="425" height="350">
+                                <param name="movie" value="http://www.youtube.com/v/K7zBDHYmBA4&autoplay=0"></param>
+                                <embed src="http://www.youtube.com/v/K7zBDHYmBA4&autoplay=0"
+                                       type="application/x-shockwave-flash" width="425" height="350"></embed>
+                            </object>
                         </div>
                     </div>
                 </div>
@@ -872,7 +914,8 @@
         <div class="header">
             I do things on GitHub
         </div>
-        <iframe style="height:80%;width:50%;padding-top:40px;" allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless"
+        <iframe style="height:80%;width:50%;padding-top:40px;" allowtransparency="true" frameborder="0" scrolling="no"
+                seamless="seamless"
                 src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=mattspaulding&type=user"></iframe>
     </div>
     <div class="section" id="section12">
@@ -880,7 +923,7 @@
             That's all folks
         </div>
         <div class="inner">
-             <div class="row">
+            <div class="row">
                 <div class="col-xs-6" style="text-align: right;">
                     email:
                 </div>
@@ -922,7 +965,8 @@
             </div>
             <br><br>
             <div>
-                <a class="btn btn-warning" href="files/MattSpauldingResume.docx" target="_blank">Download Resume (.docx)</a>
+                <a class="btn btn-warning" href="files/MattSpauldingResume.docx" target="_blank">Download Resume
+                    (.docx)</a>
             </div>
         </div>
     </div>
